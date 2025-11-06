@@ -1,0 +1,10 @@
+﻿@CoreApi_HostAddress = https://localhost:7184
+
+POST {{CoreApi_HostAddress}}/todoitems
+Content-Type: application/json
+
+{
+  "name":"walk dog",
+  "isComplete":true
+}
+###
